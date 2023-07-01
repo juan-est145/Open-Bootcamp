@@ -1,0 +1,15 @@
+C:\Users\Juan\Pruebas VSCode\Quinto_ejercicio_openbootcamp\bin\Debug\net7.0\Quinto_ejercicio_openbootcamp.exe
+C:\Users\Juan\Pruebas VSCode\Quinto_ejercicio_openbootcamp\bin\Debug\net7.0\Quinto_ejercicio_openbootcamp.deps.json
+C:\Users\Juan\Pruebas VSCode\Quinto_ejercicio_openbootcamp\bin\Debug\net7.0\Quinto_ejercicio_openbootcamp.runtimeconfig.json
+C:\Users\Juan\Pruebas VSCode\Quinto_ejercicio_openbootcamp\bin\Debug\net7.0\Quinto_ejercicio_openbootcamp.dll
+C:\Users\Juan\Pruebas VSCode\Quinto_ejercicio_openbootcamp\bin\Debug\net7.0\Quinto_ejercicio_openbootcamp.pdb
+C:\Users\Juan\Pruebas VSCode\Quinto_ejercicio_openbootcamp\obj\Debug\net7.0\Quinto_ejercicio_openbootcamp.csproj.AssemblyReference.cache
+C:\Users\Juan\Pruebas VSCode\Quinto_ejercicio_openbootcamp\obj\Debug\net7.0\Quinto_ejercicio_openbootcamp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan\Pruebas VSCode\Quinto_ejercicio_openbootcamp\obj\Debug\net7.0\Quinto_ejercicio_openbootcamp.AssemblyInfoInputs.cache
+C:\Users\Juan\Pruebas VSCode\Quinto_ejercicio_openbootcamp\obj\Debug\net7.0\Quinto_ejercicio_openbootcamp.AssemblyInfo.cs
+C:\Users\Juan\Pruebas VSCode\Quinto_ejercicio_openbootcamp\obj\Debug\net7.0\Quinto_ejercicio_openbootcamp.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Pruebas VSCode\Quinto_ejercicio_openbootcamp\obj\Debug\net7.0\Quinto_ejercicio_openbootcamp.dll
+C:\Users\Juan\Pruebas VSCode\Quinto_ejercicio_openbootcamp\obj\Debug\net7.0\refint\Quinto_ejercicio_openbootcamp.dll
+C:\Users\Juan\Pruebas VSCode\Quinto_ejercicio_openbootcamp\obj\Debug\net7.0\Quinto_ejercicio_openbootcamp.pdb
+C:\Users\Juan\Pruebas VSCode\Quinto_ejercicio_openbootcamp\obj\Debug\net7.0\Quinto_ejercicio_openbootcamp.genruntimeconfig.cache
+C:\Users\Juan\Pruebas VSCode\Quinto_ejercicio_openbootcamp\obj\Debug\net7.0\ref\Quinto_ejercicio_openbootcamp.dll
