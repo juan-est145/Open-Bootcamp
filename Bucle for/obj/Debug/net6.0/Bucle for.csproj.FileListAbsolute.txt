@@ -1,0 +1,15 @@
+C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Octavo_ejercicio_openbootcamp\Octavo_ejercicio_de_openbootcamp\Bucle for\bin\Debug\net6.0\Bucle for.exe
+C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Octavo_ejercicio_openbootcamp\Octavo_ejercicio_de_openbootcamp\Bucle for\bin\Debug\net6.0\Bucle for.deps.json
+C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Octavo_ejercicio_openbootcamp\Octavo_ejercicio_de_openbootcamp\Bucle for\bin\Debug\net6.0\Bucle for.runtimeconfig.json
+C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Octavo_ejercicio_openbootcamp\Octavo_ejercicio_de_openbootcamp\Bucle for\bin\Debug\net6.0\Bucle for.dll
+C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Octavo_ejercicio_openbootcamp\Octavo_ejercicio_de_openbootcamp\Bucle for\bin\Debug\net6.0\Bucle for.pdb
+C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Octavo_ejercicio_openbootcamp\Octavo_ejercicio_de_openbootcamp\Bucle for\obj\Debug\net6.0\Bucle for.csproj.AssemblyReference.cache
+C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Octavo_ejercicio_openbootcamp\Octavo_ejercicio_de_openbootcamp\Bucle for\obj\Debug\net6.0\Bucle for.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Octavo_ejercicio_openbootcamp\Octavo_ejercicio_de_openbootcamp\Bucle for\obj\Debug\net6.0\Bucle for.AssemblyInfoInputs.cache
+C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Octavo_ejercicio_openbootcamp\Octavo_ejercicio_de_openbootcamp\Bucle for\obj\Debug\net6.0\Bucle for.AssemblyInfo.cs
+C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Octavo_ejercicio_openbootcamp\Octavo_ejercicio_de_openbootcamp\Bucle for\obj\Debug\net6.0\Bucle for.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Octavo_ejercicio_openbootcamp\Octavo_ejercicio_de_openbootcamp\Bucle for\obj\Debug\net6.0\Bucle for.dll
+C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Octavo_ejercicio_openbootcamp\Octavo_ejercicio_de_openbootcamp\Bucle for\obj\Debug\net6.0\refint\Bucle for.dll
+C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Octavo_ejercicio_openbootcamp\Octavo_ejercicio_de_openbootcamp\Bucle for\obj\Debug\net6.0\Bucle for.pdb
+C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Octavo_ejercicio_openbootcamp\Octavo_ejercicio_de_openbootcamp\Bucle for\obj\Debug\net6.0\Bucle for.genruntimeconfig.cache
+C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Octavo_ejercicio_openbootcamp\Octavo_ejercicio_de_openbootcamp\Bucle for\obj\Debug\net6.0\ref\Bucle for.dll
