@@ -1,4 +1,16 @@
+//1. Usings to work with EntityFramework
+using Microsoft.EntityFrameworkCore;
+using api_restful_backend.DataAccess;
 var builder = WebApplication.CreateBuilder(args);
+
+
+//2. Connection with SQL Server Express
+const string CONNECTIONNAME = "API_OpenBootcampDB";
+var connectionString = builder.Configuration.GetConnectionString(CONNECTIONNAME);
+
+//3. Add Context
+builder.Services.AddDbContext<API_OpenBootcamp_context>(options => options.UseSqlServer(connectionString));
+
 
 // Add services to the container.
 
