@@ -13,5 +13,9 @@ namespace api_restful_backend.DataAccess
 
         //ToDo: Add DbSets (Tables of our Data base)
         public DbSet<Users>? Users { get; set; }
+        public DbSet<Courses>? Courses { get; set; }
+        public DbSet<Categoría>? Categoría { get; set; }
+        public DbSet<Students>? Students { get; set; }
+        public DbSet<Chapters>? Chapters { get; set; }
     }
 }
