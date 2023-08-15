@@ -55,6 +55,27 @@ namespace LINQSnippets
 
                     //Método del tutorial
                     var CText = textList.First(text => text.Equals('C'));
+            
+            //6. Encontrar el primer elemento que contenga una "J"
+
+                    //Mi propio método (Muy parecido al del vídeo)
+                    string textoJ = textList.First(x => x.Contains('j'));
+
+            //7. Encontrar primer elemento que contenga la Z o default
+
+                    //Mi propio método (en este caso, cuando no encuentre el valor que se desea, devolvera una cadena vacía)
+                    string? textoZ = textList.First(x => x.Contains('z')).DefaultIfEmpty().ToString();
+                    
+                    //Método del tutorial (en este caso, cuando no se encuentre el valor que se desea, devolvera un valor null. Este método representa mejores prácticas)
+                    var firstOrDefaultText = textList.FirstOrDefault(text => text.Contains("z"));
+
+            //8. Encontrar último elemento que contenga la z o default
+
+                    //Mi propio método
+                    string? ultimoZ = textList.LastOrDefault(x => x.Contains('z'));
+                    
+                    //Método del tutorial
+                    var lastOrDefaultText = textList.LastOrDefault(text => text.Contains("z"));
         }
     }
 }
