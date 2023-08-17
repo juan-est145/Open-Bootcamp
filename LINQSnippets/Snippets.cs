@@ -252,5 +252,44 @@ namespace LINQSnippets
                     //Método del tutorial
                     var takeWhile = lista.TakeWhile(x => x < 4); //Tomará solo los números menores a 4.
         }
+
+            //19. Paging  con Skip y Take
+        public IEnumerable<T> Getpage<T>(IEnumerable<T> collection, int pageNumber, int resultsPerPage)
+        {
+            int startIndex = (pageNumber - 1) * resultsPerPage;
+            return collection.Skip(startIndex).Take(resultsPerPage);
+        }
+
+            //20. Variables
+        static public void LinqVariables()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            var aboveAverage = from number in numbers let average = numbers.Average() let nSquared = Math.Pow(number, 2) where nSquared > average select number;
+        }
+
+            //21. Zip
+        static public void ZipLinq()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5 };
+            string[] stringNumbers = { "One", "Two", "Three", "Four", "Five" };
+
+            IEnumerable<string> zipNumbers = numbers.Zip(stringNumbers, (number, word) => $"{number} = {word}"); //Resultado = 1 = one, 2 = two, 3 = three, etc.
+        }
+
+            //22. Repeat and Range
+        static public void RepeatRangeLinq()
+        {
+            //Generar colección de valores del 1 al 1.000
+            var first1000 = Enumerable.Range(1, 1000);
+
+            //Repite un valor concreto x número de veces.
+            var fiveAs = Enumerable.Repeat("A", 5);
+        }
+
+        static public void StudentsLinq()
+        {
+
+        }
     }
 }
