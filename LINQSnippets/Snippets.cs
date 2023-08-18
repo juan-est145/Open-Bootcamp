@@ -1,5 +1,8 @@
 ﻿using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 using System.Text;
+using System.Threading.Tasks.Dataflow;
+
 namespace LINQSnippets
 {
     public class Snippets
@@ -289,7 +292,151 @@ namespace LINQSnippets
 
         static public void StudentsLinq()
         {
+            var classRoom = new[]
+            {
+                new Student_Snippets_
+                {
+                    Id = 1,
+                    Name = "Martín",
+                    Grade = 90,
+                    Certified = true,
+                },
+                new Student_Snippets_
+                {
+                    Id = 2,
+                    Name = "Juan",
+                    Grade = 50,
+                    Certified = false,
+                },
+                new Student_Snippets_
+                {
+                    Id = 3,
+                    Name = "Ana",
+                    Grade = 96,
+                    Certified = true,
+                },
+                new Student_Snippets_
+                {
+                    Id = 4,
+                    Name = "Álvaro",
+                    Grade = 10,
+                    Certified = false,
+                },
+                new Student_Snippets_
+                {
+                    Id = 5,
+                    Name = "Pedro",
+                    Grade = 50,
+                    Certified = true,
+                },
+            };
 
+            var certifiedStudents = from student in classRoom where student.Certified == true select student;
+            var notCertiedStudents = from student in classRoom where student.Certified != true select student;
+            var approvedStudents = from student in classRoom where student.Grade >= 50 && student.Certified == true select student.Name;
+
+            var certifiedQuery = classRoom.GroupBy(x => x.Certified); //Para agrupar por alumnos certificados o no, obteniendo así dos grupos
+        }
+
+            //23. All
+        static public void AllLinq()
+        {
+            var numbers = new List<int>() {1,2,3,4,5};
+            bool allAreSmallerThan10 = numbers.All(x => x < 10); //Dará true, porque no hay ningún valor mayor que diez.
+            bool allAreBiggerOrEqualThan2 = numbers.All(x => x >= 2); //Dará false, porque está el número 1, que es menor que 2.
+
+            var emptyList = new List<int>();
+            bool allNumbersAreGreaterThan0 = numbers.All(x => x >= 0); //Dará true.
+        }
+
+            //24. Aggregate
+        static public void AggregateQueries()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            int sum = numbers.Aggregate((x,y) => x + y);
+
+            string[] words = { "Hello,", "my", "name", "is", "Juan" };
+            string greeting = words.Aggregate((x, y) => x + y);
+        }
+
+            //25. Distinct values
+        static public void Distinct()
+        {
+            int[] numbers = { 1, 2, 3, 4, 5, 5, 4, 3, 2, 1 };
+
+            int [] DistinctValues = numbers.Distinct().ToArray();
+        }
+
+            //26. Group by
+        static public void GroupByExamples()
+        {
+            List<int> numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            var grouped = numbers.GroupBy(x => x % 2 == 0);
+
+            //Para iterar por los dos grupos y ver los resultados se haría así
+            foreach(var group in grouped)
+            {
+                foreach(var value in group)
+                {
+                    Console.WriteLine(value); //1,3,5,7,9,2,4,6,8
+                }
+            }
+        }
+
+        static public void RelationsLinq()
+        {
+            List<Post> posts = new List<Post>();
+            new Post()
+            {
+                Id = 1,
+                Title = "My first post",
+                Content = "My first content",
+                Created = DateTime.Now,
+                Comments = new List<Comment>()
+                {
+                    new Comment()
+                    {
+                        Id = 1,
+                        Created = DateTime.Now,
+                        Title = "My first comment",
+                        Content = "My content"
+                    },
+                    new Comment()
+                    {
+                        Id = 2,
+                        Created = DateTime.Now,
+                        Title = "My second comment",
+                        Content = "My other content"
+                    }
+                }
+            };
+
+            new Post()
+            {
+                Id = 2,
+                Title = "My second post",
+                Content = "My second content",
+                Created = DateTime.Now,
+                Comments = new List<Comment>()
+                {
+                    new Comment()
+                    {
+                        Id = 3,
+                        Created = DateTime.Now,
+                        Title = "My other comment",
+                        Content = "My content"
+                    },
+                    new Comment()
+                    {
+                        Id = 4,
+                        Created = DateTime.Now,
+                        Title = "My other new comment",
+                        Content = "My other content"
+                    }
+                }
+            };
+
+            var commentsWithContent = posts.SelectMany(x => x.Comments, (x, y) => new {PostId = x.Id, CommentContent = y.Content});
         }
     }
 }
