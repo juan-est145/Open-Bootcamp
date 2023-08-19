@@ -14,6 +14,9 @@ var connectionString = builder.Configuration.GetConnectionString(CONNECTIONNAME)
 builder.Services.AddDbContext<API_OpenBootcamp_context>(options => options.UseSqlServer(connectionString));
 
 
+//7. Add Service of JWT Autorization
+//builder.Services.AddJwtTokenServices(builder.Configuration);
+
 // Add services to the container.
 
 builder.Services.AddControllers();
