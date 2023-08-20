@@ -29,7 +29,7 @@ namespace api_restful_backend.Helpers
             else if (userAccount.UserName == "User 1")
             {
                 claims.Add(new Claim(ClaimTypes.Role, "User"));
-                claims.Add(new Claim("UserOnly", "User "));
+                claims.Add(new Claim("UserOnly", "User"));
             }
 
             return claims;
@@ -46,7 +46,7 @@ namespace api_restful_backend.Helpers
             try 
             {
                 var userToken = new UserTokens();
-                if (model== null)
+                if (model == null)
                 {
                     throw new ArgumentNullException(nameof(model));
                 }
@@ -64,23 +64,27 @@ namespace api_restful_backend.Helpers
 
                 //Generate Our JWT
                 var jwToken = new JwtSecurityToken(
+
                     issuer: jwtSettings.ValidIssuer,
                     audience: jwtSettings.ValidAudience,
                     claims: GetClaims(model, out Id),
                     notBefore: new DateTimeOffset(DateTime.Now).DateTime,
                     expires: new DateTimeOffset(expireTime).DateTime,
                     signingCredentials: new SigningCredentials(
-                        new SymmetricSecurityKey(key),
-                        SecurityAlgorithms.HmacSha256));
+                            new SymmetricSecurityKey(key),
+                            SecurityAlgorithms.HmacSha256));
+
+
                 userToken.Token = new JwtSecurityTokenHandler().WriteToken(jwToken);
                 userToken.UserName = model.UserName;
                 userToken.Id = model.Id;
                 userToken.GuidId = Id;
+
                 return userToken;
             }
 
-            catch (Exception ex) 
-            {
+            catch (Exception ex)
+            { 
                 throw new Exception("Error generating the JWT", ex);
             }
         }

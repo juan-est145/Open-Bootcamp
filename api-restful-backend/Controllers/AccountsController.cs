@@ -6,16 +6,19 @@ using api_restful_backend.Helpers;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using api_restful_backend.DataAccess;
 
 namespace api_restful_backend.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class AccountsController : ControllerBase
     {
+        private readonly API_OpenBootcamp_context _context;
         private readonly JwtSettings _jwtSettings;
-        public AccountsController(JwtSettings jwtSettings)
+        public AccountsController(API_OpenBootcamp_context context, JwtSettings jwtSettings)
         {
+            _context = context;
             _jwtSettings = jwtSettings;
         }
 
@@ -37,16 +40,17 @@ namespace api_restful_backend.Controllers
             }
         };
         [HttpPost]
-        public IActionResult GetToken(UserLogins userLogin)
+        public async IActionResult GetToken(UserLogins userLogin)
         {
             try
             {
                 var Token = new UserTokens();
-                var Valid = Logins.Any(user => user.Name.Equals(userLogin.userName, StringComparison.OrdinalIgnoreCase));
+                
+                var Valid = Logins.Any(user => user.Name.Equals(userLogin.UserName, StringComparison.OrdinalIgnoreCase));
 
                 if (Valid)
                 {
-                    var user = Logins.FirstOrDefault(user => user.Name.Equals(userLogin.userName, StringComparison.OrdinalIgnoreCase));
+                    var user = Logins.FirstOrDefault(user => user.Name.Equals(userLogin.UserName, StringComparison.OrdinalIgnoreCase));
                     Token = JWTHelpers.GenTokenKey(new UserTokens()
                     {
                         UserName = user.Name,
