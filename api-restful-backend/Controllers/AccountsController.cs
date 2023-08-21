@@ -7,6 +7,8 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using api_restful_backend.DataAccess;
+using Microsoft.OpenApi.Validations;
+using SQLitePCL;
 
 namespace api_restful_backend.Controllers
 {
@@ -45,17 +47,25 @@ namespace api_restful_backend.Controllers
             try
             {
                 var Token = new UserTokens();
-                
-                var Valid = Logins.Any(user => user.Name.Equals(userLogin.UserName, StringComparison.OrdinalIgnoreCase));
 
-                if (Valid)
+                var searchUser = (from user in _context.Users
+                                 where user.Name == userLogin.UserName && user.Password == userLogin.password
+                                 select user).FirstOrDefault();
+                
+                /*Alternative way in creating the query based on lambda expressions (my own method, based on the one from the tutorial that it is the one currently being used
+                var searchUser = _context.Users.Select(x => x).Where(x => x.Name == userLogin.UserName && x.Password == userLogin.password).FirstOrDefault()*/
+
+                /*Older validation (no longer in use)
+                var Valid = Logins.Any(user => user.Name.Equals(userLogin.UserName, StringComparison.OrdinalIgnoreCase));*/
+
+                if (searchUser != null)
                 {
                     var user = Logins.FirstOrDefault(user => user.Name.Equals(userLogin.UserName, StringComparison.OrdinalIgnoreCase));
                     Token = JWTHelpers.GenTokenKey(new UserTokens()
                     {
-                        UserName = user.Name,
-                        EmailId = user.EmailAddress,
-                        Id = user.Id,
+                        UserName = searchUser.Name,
+                        EmailId = searchUser.EmailAddress,
+                        Id = searchUser.Id,
                         GuidId = Guid.NewGuid()
                     }, _jwtSettings);  
                 }
