@@ -40,7 +40,7 @@ namespace api_restful_backend.Controllers
             }
         };
         [HttpPost]
-        public async IActionResult GetToken(UserLogins userLogin)
+        public IActionResult GetToken(UserLogins userLogin)
         {
             try
             {
