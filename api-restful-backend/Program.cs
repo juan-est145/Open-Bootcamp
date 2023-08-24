@@ -4,9 +4,16 @@ using api_restful_backend.DataAccess;
 using api_restful_backend.Services;
 using api_restful_backend;
 using Microsoft.OpenApi.Models;
+//10. Use serilog to log events
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//11. Config Serilog
+builder.Host.UseSerilog((hostBuilderCtx, loggerConf ) =>
+{
+    loggerConf.WriteTo.Console().WriteTo.Debug().ReadFrom.Configuration(hostBuilderCtx.Configuration);
+});
 
 //2. Connection with SQL Server Express
 const string CONNECTIONNAME = "API_OpenBootcampDB";
@@ -84,6 +91,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//12. Tell app to use Serilog
+app.UseSerilogRequestLogging();
 
 app.UseHttpsRedirection();
 
