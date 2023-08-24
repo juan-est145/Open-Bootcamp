@@ -29,7 +29,7 @@ namespace api_restful_backend.Helpers
             else if (userAccount.UserName == "User 1")
             {
                 claims.Add(new Claim(ClaimTypes.Role, "User"));
-                claims.Add(new Claim("UserOnly", "User"));
+                claims.Add(new Claim("UserOnly", "User 1"));
             }
 
             return claims;
