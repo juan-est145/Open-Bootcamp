@@ -1,7 +1,0 @@
-C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Sexto_ejercicio_openbootcamp\Sexto_ejercicio_openbootcamp\bin\Debug\Sexto_ejercicio_openbootcamp.exe.config
-C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Sexto_ejercicio_openbootcamp\Sexto_ejercicio_openbootcamp\bin\Debug\Sexto_ejercicio_openbootcamp.exe
-C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Sexto_ejercicio_openbootcamp\Sexto_ejercicio_openbootcamp\bin\Debug\Sexto_ejercicio_openbootcamp.pdb
-C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Sexto_ejercicio_openbootcamp\Sexto_ejercicio_openbootcamp\obj\Debug\Sexto_ejercicio_openbootcamp.csproj.AssemblyReference.cache
-C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Sexto_ejercicio_openbootcamp\Sexto_ejercicio_openbootcamp\obj\Debug\Sexto_ejercicio_openbootcamp.csproj.CoreCompileInputs.cache
-C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Sexto_ejercicio_openbootcamp\Sexto_ejercicio_openbootcamp\obj\Debug\Sexto_ejercicio_openbootcamp.exe
-C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Sexto_ejercicio_openbootcamp\Sexto_ejercicio_openbootcamp\obj\Debug\Sexto_ejercicio_openbootcamp.pdb

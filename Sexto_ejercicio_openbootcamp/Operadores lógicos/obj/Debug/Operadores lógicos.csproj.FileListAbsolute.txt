@@ -1,6 +1,0 @@
-C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Sexto_ejercicio_openbootcamp\Operadores lógicos\bin\Debug\Operadores lógicos.exe.config
-C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Sexto_ejercicio_openbootcamp\Operadores lógicos\bin\Debug\Operadores lógicos.exe
-C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Sexto_ejercicio_openbootcamp\Operadores lógicos\bin\Debug\Operadores lógicos.pdb
-C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Sexto_ejercicio_openbootcamp\Operadores lógicos\obj\Debug\Operadores lógicos.csproj.CoreCompileInputs.cache
-C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Sexto_ejercicio_openbootcamp\Operadores lógicos\obj\Debug\Operadores lógicos.exe
-C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Sexto_ejercicio_openbootcamp\Operadores lógicos\obj\Debug\Operadores lógicos.pdb
