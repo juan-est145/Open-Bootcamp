@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Octavo_ejercicio_de_openbootcamp
-build_property.ProjectDir = C:\Users\Juan\Documents\Programas de prácticas con Visual Studio\Octavo_ejercicio_openbootcamp\Octavo_ejercicio_de_openbootcamp\Octavo_ejercicio_de_openbootcamp\
+build_property.ProjectDir = C:\Users\Juan\Desktop\Octava\Octavo_ejercicio_de_openbootcamp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
