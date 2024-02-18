@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Octavo_ejercicio_de_openbootcamp": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
