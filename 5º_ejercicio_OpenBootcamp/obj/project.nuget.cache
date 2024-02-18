@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xCBqxvC26hTiFc6GEW+gcxeQNW+Zse9d24QTw9iY4uxka6O6eEZLCC2G3ebfmb4C3Z2kp471ckbOA3U4JEc1OQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Juan\\Desktop\\Open-Bootcamp\\5º_ejercicio_OpenBootcamp\\Quinto_ejercicio_openbootcamp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Juan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
