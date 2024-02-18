@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juan\\Documents\\Programas de prácticas con Visual Studio\\Noveno_ejercicio_openbootcamp\\Switch\\Switch.csproj": {}
+    "C:\\Users\\Juan\\Desktop\\novena\\Switch\\Switch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juan\\Documents\\Programas de prácticas con Visual Studio\\Noveno_ejercicio_openbootcamp\\Switch\\Switch.csproj": {
+    "C:\\Users\\Juan\\Desktop\\novena\\Switch\\Switch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juan\\Documents\\Programas de prácticas con Visual Studio\\Noveno_ejercicio_openbootcamp\\Switch\\Switch.csproj",
+        "projectUniqueName": "C:\\Users\\Juan\\Desktop\\novena\\Switch\\Switch.csproj",
         "projectName": "Switch",
-        "projectPath": "C:\\Users\\Juan\\Documents\\Programas de prácticas con Visual Studio\\Noveno_ejercicio_openbootcamp\\Switch\\Switch.csproj",
+        "projectPath": "C:\\Users\\Juan\\Desktop\\novena\\Switch\\Switch.csproj",
         "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan\\Documents\\Programas de prácticas con Visual Studio\\Noveno_ejercicio_openbootcamp\\Switch\\obj\\",
+        "outputPath": "C:\\Users\\Juan\\Desktop\\novena\\Switch\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Juan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
