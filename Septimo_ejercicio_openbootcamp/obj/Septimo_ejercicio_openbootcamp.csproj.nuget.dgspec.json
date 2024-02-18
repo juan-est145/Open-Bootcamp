@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juan\\Documents\\Programas de prácticas con Visual Studio\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp.csproj": {}
+    "C:\\Users\\Juan\\Desktop\\septima\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juan\\Documents\\Programas de prácticas con Visual Studio\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp.csproj": {
+    "C:\\Users\\Juan\\Desktop\\septima\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juan\\Documents\\Programas de prácticas con Visual Studio\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp.csproj",
+        "projectUniqueName": "C:\\Users\\Juan\\Desktop\\septima\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp.csproj",
         "projectName": "Septimo_ejercicio_openbootcamp",
-        "projectPath": "C:\\Users\\Juan\\Documents\\Programas de prácticas con Visual Studio\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp.csproj",
+        "projectPath": "C:\\Users\\Juan\\Desktop\\septima\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp.csproj",
         "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan\\Documents\\Programas de prácticas con Visual Studio\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp\\Septimo_ejercicio_openbootcamp\\obj\\",
+        "outputPath": "C:\\Users\\Juan\\Desktop\\septima\\Septimo_ejercicio_openbootcamp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Juan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
