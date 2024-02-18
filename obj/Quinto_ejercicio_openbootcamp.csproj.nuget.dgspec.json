@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juan\\Pruebas VSCode\\Quinto_ejercicio_openbootcamp\\Quinto_ejercicio_openbootcamp.csproj": {}
+    "C:\\Users\\Juan\\Desktop\\Open-Bootcamp\\Quinto_ejercicio_openbootcamp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juan\\Pruebas VSCode\\Quinto_ejercicio_openbootcamp\\Quinto_ejercicio_openbootcamp.csproj": {
+    "C:\\Users\\Juan\\Desktop\\Open-Bootcamp\\Quinto_ejercicio_openbootcamp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juan\\Pruebas VSCode\\Quinto_ejercicio_openbootcamp\\Quinto_ejercicio_openbootcamp.csproj",
+        "projectUniqueName": "C:\\Users\\Juan\\Desktop\\Open-Bootcamp\\Quinto_ejercicio_openbootcamp.csproj",
         "projectName": "Quinto_ejercicio_openbootcamp",
-        "projectPath": "C:\\Users\\Juan\\Pruebas VSCode\\Quinto_ejercicio_openbootcamp\\Quinto_ejercicio_openbootcamp.csproj",
+        "projectPath": "C:\\Users\\Juan\\Desktop\\Open-Bootcamp\\Quinto_ejercicio_openbootcamp.csproj",
         "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan\\Pruebas VSCode\\Quinto_ejercicio_openbootcamp\\obj\\",
+        "outputPath": "C:\\Users\\Juan\\Desktop\\Open-Bootcamp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Juan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

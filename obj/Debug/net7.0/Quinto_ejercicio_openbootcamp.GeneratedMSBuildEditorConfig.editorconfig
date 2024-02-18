@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Quinto_ejercicio_openbootcamp
-build_property.ProjectDir = C:\Users\Juan\Pruebas VSCode\Quinto_ejercicio_openbootcamp\
+build_property.ProjectDir = C:\Users\Juan\Desktop\Open-Bootcamp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
